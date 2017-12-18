@@ -1,0 +1,288 @@
+/*Default CSS*/
+body {
+    font-family: Arial;
+    font-size: 14px;
+}
+.logo {
+    font-size: 100px;
+    font-weight: bolder;
+    letter-spacing: -6px;
+    color: #222;
+    margin: 20px 30px;
+}
+.logo .number {
+    color: #222;
+    opacity: 0.1;
+}
+.navigation {
+    margin-left: 33px;
+}
+.navigation a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #222;
+    background: #222;
+    color: #fff;
+}
+.navigation a:hover {
+    color: #222;
+    background: transparent;
+}
+.container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 33px;
+}
+.container a {
+    color: #222;
+}
+.container table {
+    font-size: 11px;
+    margin-top: 20px;
+}
+.container table thead td {
+    background-color: #f5f5f5;
+    padding: 4px 10px;
+}
+.container table tbody td {
+    padding: 4px 10px;
+}
+.container .box {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+.container input {
+    background-color: #f5f5f5;
+    border: 0;
+    padding: 5px 10px;
+}
+.container input[type="submit"] {
+    background-color: #ccc;
+    cursor: pointer;
+}
+.container input[type="submit"]:hover {
+    background-color: #222;
+    color: #fff;
+}
+.container button {
+    background-color: #ccc;
+    border: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.container button:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+/*Header*/
+.search-bar {
+    padding-top: 20px;
+    margin: auto;
+    max-width: 50%;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 500px;
+    overflow-x: hidden;
+    padding-left: 10px;
+}
+
+.top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.nav-btns {
+    padding-top: 20px;
+}
+.logo-img {
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+/*Home Page, Listing Page*/
+.product-summary {
+    font-size: 75%;
+    width: 100px;   
+}
+
+.bottom-padding {
+    padding-bottom: 20px;
+}
+
+.txt-overflow-hidden {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.left-padding {
+    padding-left: 50px; 
+}
+
+.sm-buy-btn {
+    border: 1px solid #ffc826; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: arial, helvetica, sans-serif; 
+    padding: 5px 8px 5px 8px; 
+    text-decoration: none; 
+    display: inline-block;
+    font-weight: bold; 
+    color: #000000;
+    background-color: #ffd65e; 
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd65e), to(#febf04));
+    background-image: -webkit-linear-gradient(top, #ffd65e, #febf04);
+    background-image: -moz-linear-gradient(top, #ffd65e, #febf04);
+    background-image: -ms-linear-gradient(top, #ffd65e, #febf04);
+    background-image: -o-linear-gradient(top, #ffd65e, #febf04);
+    background-image: linear-gradient(to bottom, #ffd65e, #febf04);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffd65e, endColorstr=#febf04);
+}
+
+.sm-buy-btn:hover {
+    border: 1px solid #f7b800;
+    background-color: #ffc92b; 
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc92b), to(#ce9a01));
+    background-image: -webkit-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: -moz-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: -ms-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: -o-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: linear-gradient(to bottom, #ffc92b, #ce9a01);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffc92b, endColorstr=#ce9a01);
+}
+
+/*Product Page*/
+
+.buy-btn {
+    border: 1px solid #ffc826; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: arial, helvetica, sans-serif; 
+    padding: 11px 11px 11px 11px; 
+    text-decoration: none; 
+    display: inline-block;
+    font-weight: bold; 
+    color: #000000;
+    background-color: #ffd65e; 
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd65e), to(#febf04));
+    background-image: -webkit-linear-gradient(top, #ffd65e, #febf04);
+    background-image: -moz-linear-gradient(top, #ffd65e, #febf04);
+    background-image: -ms-linear-gradient(top, #ffd65e, #febf04);
+    background-image: -o-linear-gradient(top, #ffd65e, #febf04);
+    background-image: linear-gradient(to bottom, #ffd65e, #febf04);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffd65e, endColorstr=#febf04);
+}
+
+.buy-btn:hover {
+    border: 1px solid #f7b800;
+    background-color: #ffc92b; 
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc92b), to(#ce9a01));
+    background-image: -webkit-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: -moz-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: -ms-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: -o-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: linear-gradient(to bottom, #ffc92b, #ce9a01);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffc92b, endColorstr=#ce9a01);
+}
+
+/*Confirmation Page*/
+
+.xs-img {
+    width: 200px; 
+    height: 200px;
+}
+
+.sm-buy-btn {
+    border: 1px solid #ffc826; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: arial, helvetica, sans-serif; 
+    padding: 5px 8px 5px 8px; 
+    text-decoration: none; 
+    display: inline-block;
+    font-weight: bold; 
+    color: #000000;
+    background-color: #ffd65e; 
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd65e), to(#febf04));
+    background-image: -webkit-linear-gradient(top, #ffd65e, #febf04);
+    background-image: -moz-linear-gradient(top, #ffd65e, #febf04);
+    background-image: -ms-linear-gradient(top, #ffd65e, #febf04);
+    background-image: -o-linear-gradient(top, #ffd65e, #febf04);
+    background-image: linear-gradient(to bottom, #ffd65e, #febf04);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffd65e, endColorstr=#febf04);
+}
+
+.sm-buy-btn:hover {
+    border: 1px solid #f7b800;
+    background-color: #ffc92b; 
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc92b), to(#ce9a01));
+    background-image: -webkit-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: -moz-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: -ms-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: -o-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: linear-gradient(to bottom, #ffc92b, #ce9a01);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffc92b, endColorstr=#ce9a01);
+}
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 600px) {
+    table#product tbody td .form-control{
+        width:20%;
+        display: inline !important;
+    }
+    .actions .btn{
+        width:36%;
+        margin:1.5em 0;
+    }
+
+    table#product thead { 
+        display: none; 
+    }
+    table#product tbody td { 
+        display: block; 
+        padding: .6rem; 
+        min-width:320px;
+    }
+    table#product tbody tr td:first-child { 
+        background: #333; 
+        color: #fff; 
+    }
+    table#product tbody td:before {
+        content: attr(data-th); 
+        font-weight: bold;
+        display: inline-block; 
+        width: 8rem;
+    }
+
+    table#product tfoot td{
+        display:block; 
+    }
+    table#product tfoot td .btn{
+        display:block;
+    }
+
+}
+
+/*Register*/
+.modal-body {
+    max-height: 420px;
+    overflow-y: auto;
+}
